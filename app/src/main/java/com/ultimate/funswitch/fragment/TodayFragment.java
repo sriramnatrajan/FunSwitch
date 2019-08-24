@@ -30,7 +30,7 @@ import retrofit2.Response;
 
 
 public class TodayFragment extends Fragment {
-    RecyclerView mRecyclerView_PendingList, mRecyclerView_List;
+    RecyclerView mRecyclerView_List;
     ProgressDialog progressDialog;
     TodoListAdapter mTodoListAdapter;
     ArrayList<Model> mPendlist;
